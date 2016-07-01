@@ -1,0 +1,41 @@
+{
+  "name": "react-number-input",
+  "version": "0.0.1",
+  "description": "A React component that replicates the HTML5 number input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint app --ext .js,.jsx"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasthesecond/react-number-input.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "js",
+    "input",
+    "number",
+    "html5"
+  ],
+  "author": "thomasthesecond",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomasthesecond/react-number-input/issues"
+  },
+  "homepage": "https://github.com/thomasthesecond/react-number-input#readme",
+  "dependencies": {
+    "eslint": "^2.13.1",
+    "react": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.0",
+    "chai": "^3.5.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "mocha": "^2.5.3"
+  }
+}
